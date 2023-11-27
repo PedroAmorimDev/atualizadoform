@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navcor">
+        <a class="logo" href="./index.html">Facebook</a>
+        <div class="homebar">
+            <a href="./entrar.html">ENTRAR</a>
+            <a href="./criarconta.html">CRIAR CONTA</a>
+            <a href="">MENSAGENS</a>
+            <a href="">CONTATO</a>
+        </div>
+    </nav>
+
+    <section>
+        <form id="formularioEntrar">
+    <label for="">E-mail:</label>
+            <input type="text" id="emailentrar" placeholder="email@email.com">
+            <div id="error-required-emailentrar" class="error">Campo obrigatório</div>
+            <div id="error-required-emailvalidoentrar" class="error">Email inválido</div>
+            
+            <label for="">Senha:</label>
+            <input type="password" id="senhalogin" placeholder="Digite sua senha" maxlength="8">
+            <div id="error-required-senhalogin" class="error">Campo obrigatório</div>
+            <div id="error-required-senhalogin8" class="error">A Sennha deve conter 8 caracteres </div>
+            
+            <button id="btnSend">Enviar</button>
+        </form>
+        </section>
+        <button id="darkmode" onclick="darkmode()">Modo Escuro</button>
+        <script src="./entrar.js"></script>
+        </body>
+        
+</html>

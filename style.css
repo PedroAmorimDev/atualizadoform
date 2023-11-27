@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --black: #000;
+    --gray: #494c4e;
+    --white: #fff;
+    --facebookazul: #2f55a4;
+    --azulmaisclaro: #4d71ba;
+    --amarelo: #d0aa5b;
+    --cinzaclaro: #989a91;
+    --vermelho: #Ff0000;
+    --rosatemperado: #ec5353;
+}
+
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #2f55a4;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+    background-color: var(--white);
+}
+
+button {
+    margin-top: 5px;
+    font-family: 'Roboto', bold;
+    background-color: var(--facebookazul);
+    color: var(--white);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 1s;
+    background-color: var(--white);
+}
+
+nav {
+    background-color: var(--azulmaisclaro);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    height: 50px;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--white);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}   
+
+nav .homebar {
+    margin-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 60px;
+}
+
+nav .homebar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    align-items: center;
+    text-align: right;
+    font-family: 'Roboto', bold;
+    margin-left: 30px;
+}
+
+
+.dark-mode {
+    background-color: var(--facebookazul);
+    color: var(--amarelo);
+}
+
+.formulario {
+    background-color: var(--azulmaisclaro);
+    color: var(--white);
+}
+
+.error {
+    background-color: var(--vermelho);
+    color: var(--white);
+    display: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.acerto {
+    background-color: green;
+    display: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin: auto ;
+}
+
+.logo{
+    color: var(--white);
+    font-size: 30px;
+    font-family: 'Roboto', bold;
+    text-decoration: none;
+    
+}
